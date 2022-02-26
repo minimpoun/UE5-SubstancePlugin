@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 70,
+	"VersionName": "4.26.0.21",
+	"FriendlyName": "Substance in UE4",
+	"Description": "Adds support for Substance (sbsar) textures",
+	"Category": "Editor",
+	"CreatedBy": "Substance by Adobe",
+	"CreatedByURL": "https://www.substance3d.com/",
+	"DocsURL": "https://docs.substance3d.com/display/integrations/Unreal+Engine",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SubstanceCore",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SubstanceEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SubstanceLink",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SubstanceLiveLink",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
